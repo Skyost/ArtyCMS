@@ -1,4 +1,4 @@
-# ![Icon](http://www.mister-swaggy.ml/assets/img/favicon.ico) ArtyCMS
+# ![Icon](https://cdn.rawgit.com/Skyost/ArtyCMS/master/assets/img/favicon.png) ArtyCMS
 *ArtyCMS is not really a CMS but can be used for websites which want to display art.*
 
 ## Requirements
