@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic);
+
+@keyframes title-animation {
+	0% {
+		color: #c0392b;
+	}
+	20% {
+		color: #f1c40f;
+	}
+	40% {
+		color: #27ae60;
+	}
+	60% {
+		color: #2980b9;
+	}
+	80% {
+		color: #8e44ad;
+	}
+	100% {
+		color: #c0392b;
+	}
+}
+
+body {
+	font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: normal;
+}
+
+header, footer {
+	text-align: center;
+}
+
+header h1 {
+	font-family: 'Pacifico', cursive;
+	padding-bottom: 0.4em;
+	animation-name: title-animation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+article img {
+	max-width: 50%;
+}
+
+footer {
+	padding: 1em 0em 1em 0em;
+}
+
+.line {
+	margin: 2em 0em 2em 0em;
+	border-top: 0.1em solid #ddd;
+}
+
+#admin-area :not(.alert) {
+	text-align: center;
+}
+
+#admin-area h2 {
+	margin-bottom: 1em;
+}
+
+#admin-area .row button {
+	margin-bottom: 1em;
+	width: 12em;
+}
+
+#shoutbox {
+	margin-bottom: 1em;
+	text-align: left;
+	border: 0.1em solid #ddd;
+}
+
+#shoutbox-title {
+	background-color: rgba(0, 39, 121, .76);
+	color: white;
+	padding: 0.1em 0.1em 0.1em 0.1em;
+	font-weight: bold;
+	display: block;
+}
+
+#shoutbox-messages {
+	overflow: auto;
+	height: 10em;
+	padding: 0.2em 0.2em 0.2em 0.5em;
+}
+
+#footer-heart {
+	font-size: 30px;
+	color: #e74c3c;
+	cursor: pointer;
+}
+
+#footer-heart:hover {
+	text-decoration: none;
+}
