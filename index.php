@@ -282,7 +282,7 @@
 				<input id="shoutbox-username" class="form-control" type="text" placeholder="<?=SHOUTBOX_USERNAME?>" maxlength="15" onkeypress="sendMessage(event);"/>
 				<input id="shoutbox-message" class="form-control" type="text" placeholder="<?=SHOUTBOX_MESSAGE?>" maxlength="100" onkeypress="sendMessage(event);"/>
 			</div>
-			<p><strong><?=COPYRIGHT?> - Powered by <a href="https://github.com/<?=APP_AUTHOR . '/' . APP_NAME?>" target="_blank"><?=APP_NAME . ' v' . APP_VERSION?></a></strong>
+			<p><strong><?=COPYRIGHT?> - Powered by <a href="https://github.com/<?=APP_AUTHORS . '/' . APP_NAME?>" target="_blank"><?=APP_NAME?></a> v<?=APP_VERSION?></strong>
 <?php
 	echo '			<br><span id="footer-heart" ';
 	if($loggedin) {
