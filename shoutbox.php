@@ -4,8 +4,6 @@
 	}
 	print_r($_POST);
 	if($_POST['action'] == 0 && isset($_POST['username']) && isset($_POST['message'])) {
-		$username = filter_var(trim($_POST["username"]), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH);
-		$message = filter_var(trim($_POST["message"]), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH);
 		$data = parse_messages();
 		array_push($data, array(
 				'username' => filter_var(trim($_POST["username"]), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH),

@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico&subset=latin,cyrillic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic);*/
 
 @keyframes title-animation {
 	0% {
@@ -23,7 +23,7 @@
 }
 
 body {
-	font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-style: normal;
 }
 

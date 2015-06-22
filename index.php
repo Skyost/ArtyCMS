@@ -282,7 +282,7 @@
 				<input id="shoutbox-username" class="form-control" type="text" placeholder="<?=SHOUTBOX_USERNAME?>" maxlength="15" onkeypress="sendMessage(event);"/>
 				<input id="shoutbox-message" class="form-control" type="text" placeholder="<?=SHOUTBOX_MESSAGE?>" maxlength="100" onkeypress="sendMessage(event);"/>
 			</div>
-			<p><strong><?=COPYRIGHT?> - Powered by <a href="https://github.com/Skyost/ArtyCMS" target="_blank">ArtyCMS</a></strong>
+			<p><strong><?=COPYRIGHT?> - Powered by <a href="https://github.com/<?=APP_AUTHOR . '/' . APP_NAME?>" target="_blank"><?=APP_NAME . ' v' . APP_VERSION?></a></strong>
 <?php
 	echo '			<br><span id="footer-heart" ';
 	if($loggedin) {
@@ -326,10 +326,10 @@
 			</div>
 		</div>
 		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="assets/js/js.cookie.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
 		<script type="text/javascript" src="assets/js/index.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <?php
 	if($loginerror) {
 ?>
