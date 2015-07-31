@@ -85,7 +85,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<meta name="generator" content="ArtyCMS">
+		<meta name="generator" content="<?=APP_NAME?>">
 		
 		<!-- Twitter Cards -->
 		<meta name="twitter:card" content="summary"/>

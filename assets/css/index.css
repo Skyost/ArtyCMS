@@ -35,8 +35,11 @@ header h1 {
 	font-family: 'Pacifico', cursive;
 	padding-bottom: 0.4em;
 	animation-name: title-animation;
+	-webkit-animation-name: title-animation;
 	animation-duration: 5s;
+	-webkit-animation-duration: 5s;
 	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 }
 
 article img {
